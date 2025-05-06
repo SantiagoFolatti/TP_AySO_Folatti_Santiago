@@ -1,0 +1,358 @@
+ls
+cd repogit
+ls -l
+cd ..
+exit
+ls -l
+cd clase4
+ls -l
+cat archi1.txt
+cat archivo1.txt
+cat archivo2.txt
+cat archivo3.txt
+cat archivo4.txt
+rm -f archivo* achivo*
+ls -l
+cat << FIN > archivo1.txt
+primera linea
+segunda linea
+tercera linea
+FIN
+
+cat << FIN > archivo2.txt
+Cuarta linea
+quinta linea
+sexta linea
+FIN
+
+> archivo1.txt
+cat archivo1.txt
+> archivo2.txt
+cat archivo2.txt
+cat << FIN > archivo1.txt
+linea1
+linea2
+linea3
+FIN
+
+cat << FIN > archivo2.txt
+linea4
+linea5
+linea6
+FIN
+
+cat << FIN > archivo3.txt
+FIN
+
+ls -l
+cat archivo1.txt archivo2.txt >archivo3.txt
+cat archivo3.txt
+ls -l
+cat archivo3.txt
+ls -l
+grep 6 archivo3.txt
+grep -v 6 archivo3.txt
+grep -n 6 archivo3.txt
+grep linea archivo3.txt
+grep Linea archivo3.txt
+grep -i Linea archivo3.txt
+grep -i -c Linea archivo3.txt
+grep -i -c 6 archivo3.txt
+clear
+cat /proc/cpuinfo
+cat /proc/cpuinfo | less
+cp archivo1.txt copia1.txt
+ls -l
+cat archivo1.txt
+touch vacio.txt
+ls -l
+mkdir vacia
+ls-l
+ls -
+ls -l
+mv vacio.txt vacia/
+ls -l
+rm -r vaa
+rm -r vacia/
+ls -l
+tree
+sudo apt install tree
+tree
+mkdir dir1 dir2 dir3
+tree
+mkdir -p alumnos/alu1/teoria
+tree
+mkdir -p {teoria,practica}/{clase1,clase2,clase3} 
+tree
+mkdir -p {compras/{remitos,facturas},ventas/{remitos,facturas,nc}
+tree
+rm -r {compras
+tree
+mkdir -p {compras/{remitos,facturas},ventas/{remitos,facturas,nc}}
+tree
+rm -r compras
+tree
+mkdir ventas
+rm -r ventas
+tree
+mkdir -p {compras/{remitos,facturas},ventas/{remitos,facturas,nc}}
+tree
+whoami
+id
+cat /etc/paswd
+cat /etc/passwd
+grep vagrant
+grep vagrant /etc/passwd
+cat etc/group
+sudo cat etc/group
+groupadd alumnos
+sudo groupadd alumnos
+cat etc/group
+sudo useradd -m -s /bin/bash -c "Alumno Santiago" -G Alumnos Santiago
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno Santiago" -G alumnos Santiago
+cat /etc/group
+cat /etc/passwd
+sudo passwd Santiago
+su - Santiago
+exit
+ls 
++
+pwd
+whoami
+man
+man man
+ls
+ls -l
+ls -la
+cd .ssh
+ls -la
+cd ..
+cat /etc/group
+cat /etc/group | more
+cat readme
+cat README
+cat README sudo
+sudo cat README 
+mkdir clase4
+ls -l
+cd clase4
+cat > archivo1.txt
+cat archivo1.txt 
+cat > archivo1.txt
+cat << FIN >
+cat << FIN >archivo2.txt
+linea4
+linea5
+cat << FIN >archivo2.txt
+linea4
+linea5
+linea6
+FIN
+
+ls -l
+cat archivo1.txt > achivo3.txt
+ls -l
+cat achivo3.txt
+cat archivo1.txt > archivo3.txt
+cat achivo3.txt
+ls -l
+cat archivo2.txt >> archivo3.txt
+cat archivo3.txt
+cat archivo1.txt >archivo3.txt
+cat archivo3.txt
+ls -l
+cat archivo2.txt
+cat archivo2.txt archivo1.txt > archivo4.txt
+cat archivo4.txt
+cat achivo3.txt
+cat archivo3.txt
+cat archivo4.txt
+cat << FIN > archivo1FIN
+FIN
+
+cat << FIN > archivo1FIN
+FIN
+
+FIN
+cat
+cat << EOF >FrcccccccccccccccccccccccccCAT CCCCCatcat << FIN > archivo1.txt
+
+
+
+
+
+
+
+ls -l
+cat help
+cat filname.txt
+cd calse4
+cd clase4
+ls -l
+ls
+tree
+cat archivo1.txt
+grep li
+grep line archivo1.txt
+grep -l line ./*
+cat archivo2.txt
+cat > archivo2.txt
+cat archivo2.txt
+cat > archivo2.txt
+cat archivo2.txt
+cat > archivo2.txt
+cat archivo2.txt
+pwd
+ls -l
+tree
+exit
+ls -l
+cat
+tree
+vagrant ls -l
+ls -l
+mkdir clase5
+ls -l
+rm clase5
+rm -r clase5
+ls -l
+ls
+ls -l
+pwd
+ls -l /home
+cd Santiago
+tree
+sudo cd Santiago
+cd Santiago
+ls -l /home
+su Santiago
+ls -l
+su - Santiago
+wd
+pwd
+chown vagrant:vagrant /home/Santiago/texto.txt
+sudo chown vagrant:vagrant /home/Santiago/texto.txt
+sudo ls -l /home/Santiago
+su - Santiago
+clear
+echo hola 
+mkdir clase5
+ls -l
+cat readme
+cat README
+cat << FIN > script1
+echo hola 
+rm dir clase5
+ls -l
+cat README
+FIN
+
+ls -l
+cat script1
+bash script1
+cat script
+cat script1
+cat << FIN > script1
+echo hola 
+rmdir clase5
+ls -l
+cat README
+FIN
+
+bash script1
+vim script2.sh
+ls- l
+ls -l
+cat script2.sh
+./script2.sh
+chmod 764 script2.sh
+ls -l
+./script2.sh
+cat script1
+-clear
+clear
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+ls -l .ssh
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:SantiagoFolatti/TP_AySO_Folatti_Santiago.git
+ls -l
+cd TP_AySO_Folatti_Santiago
+ls -l
+cat /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+cat datos_url.txt 
+git status
+git add .
+git status
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_url.txt" 
+git config --global user.email "srfolatti7@gmail.com"
+git config --global user.name "SantiagoFolatti"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_url.txt" 
+git status
+git push
+git status
+exit
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Folatti_Santiago/
+ls -l
+cat README.md 
+cat <<EOF >> README.md 
+EOF
+
+cat <<EOF > README.md 
+Alumno: Santiago Folatti
+Division: 211
+Turno: Tarde
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+ls -l
+clear
+ls-l
+ls -l
+vim README.md
+cat README.md 
+ls -l
+git add README.md datos_usuario.txt
+git status
+rm .README.md.swp
+l
+ls -l
+git satus
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push
+wpd
+pwd
+ls -l
+ls -la
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+ls -r
+ls -l
+tree
+echo mkdir -p {materia1,materia2}/{uni1,uni2,uni3} > script_dir.sh
+ls -l
+chmod 755 script_dir.sh 
+ls -l
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+tree
+cat script_dir.sh 
+history -a
