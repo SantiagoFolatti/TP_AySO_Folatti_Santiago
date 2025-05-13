@@ -356,3 +356,146 @@ git push
 tree
 cat script_dir.sh 
 history -a
+cp ~/.bash_history ./Historial_comandos_Folatti.txt
+ls -l
+cat Historial_comandos_Folatti.txt 
+git add Historial_comandos_Folatti.txt 
+git commit -m "ADD: Historial de comandos de Apellido"
+git push
+git status
+cat datos_usuario.txt 
+git status
+history -a
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Folatti_Santiago/
+LS -L
+ls -l
+ls -la
+tree
+git status
+cat script_dir.sh 
+cat datos_usuario.txt 
+cat datos_url.txt 
+cat README.md 
+exit
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Folatti_Santiago/
+whoami
+ls -l
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+git status
+git add datos_usuario.txt
+git status
+git commit -m "ADD: creado archivo con nombre de usuario"
+git status
+git push
+whoami
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+rm -r datos_usuarios.txtt
+rm -r datos_usuarios.txt
+ls -l
+cat datos_usuario.txt 
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<FIN >> README.md
+Alumno: Santiago Folatti
+División: 211
+Turno: Tarde
+FIN
+
+git add README.md 
+git status
+git add README.md datos_usuario.txt
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push
+cat <<FIN >> README.md
+Alumno: Santiago Folatti
+División: 211
+Turno: Tarde
+FIN
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+nano README.md
+history | grep datos_usuario.txt
+git status
+cat ~/.bash_history | less
+git status
+rm egunda linea
+ls -l
+tree
+rm r egunda linea
+ls -l
+git status
+cat egunda\ linea 
+rm "egunda linea"
+ls -ls
+agit status
+quotedlsslllllllllllllssddddddeeeeeeeeewyqq
+ls -l
+pwd
+cd Santiago
+whoami
+id
+grep Satiago /etc/pwd
+su - Santiago
+ls -l
+cat clase4
+sudo cat clase4
+cd clase4
+ls -l
+tree
+cat archivo1 archivo2
+cat archivo1
+cat archivo1.txt
+cat archivo1.txt archivo2.txt
+exit
+ls -l
+cd repogit
+ls -l
+TP_AySO_Folatti_Santiago/
+TP_AySO_Folatti_Santiago
+cd TP_AySO_Folatti_Santiago
+ls -l
+tree
+cat README.md.save 
+cat README.md
+vagrat status
+git status
+rm -r README.md.save 
+tree
+git status
+
+so -Santiago
+tree
+cat script_dir.sh 
+cat datos_usuario.txt datos_url.txt 
+cat Historial_comandos_Folatti.txt 
+clear
+exit
+ls -l
+cd repogit/
+cd TP_AySO_Folatti_Santiago/
+whoami
+pwd
+tree
+cat script_dir.sh 
+exit
+cd repogit/
+cd TP_AySO_Folatti_Santiago/
+tree
+git status
+history -a
